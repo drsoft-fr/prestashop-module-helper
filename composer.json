@@ -1,0 +1,26 @@
+{
+  "name": "drsoft-fr/prestashop-module-helper",
+  "description": "This package will help you to manage your drSoft.fr PrestaShop module.",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "drSoft.fr",
+      "email": "contact@drsoft.fr",
+      "homepage": "https://github.com/drsoft-fr"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DrSoftFr\\PrestaShopModuleHelper\\": "src/"
+    }
+  },
+  "homepage": "https://github.com/drsoft-fr/prestashop-module-helper",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "support": {
+    "issues": "https://github.com/drsoft-fr/prestashop-module-helper/issues"
+  },
+  "type": "library"
+}
