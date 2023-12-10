@@ -29,7 +29,7 @@ This package will help you to manage your drSoft.fr PrestaShop module.
 
 ## Version
 
-1.0.0
+1.0.1
 
 ## Licenses
 
