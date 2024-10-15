@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/drsoft-fr/prestashop-module-helper",
   "require": {
-    "php": ">=5.6.0"
+    "php": ">=7.2"
   },
   "support": {
     "issues": "https://github.com/drsoft-fr/prestashop-module-helper/issues"

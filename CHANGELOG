@@ -1,4 +1,28 @@
 =============================================================
+v1.0.2 - 2024-10-15
+=============================================================
+
+- create: Add ClassHydrateTrait with toCamelCase function
+
+          Introduces ClassHydrateTrait with a toCamelCase method to convert strings and a hydrate method to populate object properties using setter methods. Ensures the presence of necessary setter methods and raises exceptions when these methods are absent or the string is empty.
+
+- create: Add initial validator classes for data validation
+
+          This commit introduces the initial validator structure including `ValidatorInterface` and `AbstractValidator`. These classes define and implement various methods for validating data fields, ensuring they meet specific conditions like type and presence.
+
+- create: Add QueryBuilderFiltersPreparerTrait to prepare SQL queries
+
+          The new trait, QueryBuilderFiltersPreparerTrait, is added to the code base to help with SQL query building in a PrestaShop module helper. The trait offers methods to construct SQL clauses depending on input parameters' types and operators, as well as helping to check and handle parameters for the query. The primary method, prepareQuery, uses these capabilities to prepare a full SQL query based on provided input arguments.
+
+- update: Update PHP version requirement to >=7.2
+
+          This change updates the minimum PHP version required by the module from 5.6.0 to 7.2. This ensures better performance, security, and compatibility with modern PHP features and standards.
+
+- delete: Remove Version section from README
+
+          The Version section has been deleted to streamline the README file and remove redundancy. Version details can be tracked through the repository's version control system.
+
+=============================================================
 v1.0.1 - 2023-12-10
 =============================================================
 

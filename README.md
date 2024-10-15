@@ -7,7 +7,6 @@
 - [Presentation](#Presentation)
 - [Links](#Links)
 - [Authors](#Authors)
-- [Version](#Version)
 - [Licenses](#Licenses)
 - [Contact](#Contact)
 
@@ -26,10 +25,6 @@ This package will help you to manage your drSoft.fr PrestaShop module.
 **Dylan Ramos** - [on GitHub](https://github.com/dylan-ramos)
 
 **drSoft.fr** - [on GitHub](https://github.com/drsoft-fr)
-
-## Version
-
-1.0.1
 
 ## Licenses
 
