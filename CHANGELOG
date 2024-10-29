@@ -1,4 +1,12 @@
 =============================================================
+v1.0.3 - 2024-10-29
+=============================================================
+
+- create: Add asset versioning system
+
+          Introduced a comprehensive asset versioning system by adding Package, PackageInterface, JsonManifestVersionStrategy, and associated context interfaces. This implementation facilitates versioned asset URL management and includes support for JSON manifest files.
+
+=============================================================
 v1.0.2 - 2024-10-15
 =============================================================
 
